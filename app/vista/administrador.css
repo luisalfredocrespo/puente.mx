@@ -1,0 +1,34 @@
+ .dropdown-menu a{
+    color: #efefef !important;
+}
+.navbar-nav > li > .dropdown-menu { background-color: #212529; }
+.administrdor_nav a{
+    cursor: pointer;
+}
+#contenido_administrador{
+    /*position: absolute;*/
+    width: 100%;
+    height: calc(100% - 80px);
+    padding-top: 108px;
+    top: 50px;
+    overflow-y: auto;
+}
+table.dataTable tbody tr {
+    /*background-color: rgba(30,30,30,0.9) !important;*/
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    color: rgb(2, 2, 2) !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: rgb(14, 12, 12) !important;
+}
+table.dataTable thead{
+    background-color: rgba(200,200,200,0.8);
+    color: #333;
+}
+table.dataTable .dataTables_wrapper .dataTables_filter {
+    opacity: 0.6;
+}
+.list-group-item{
+    background-color: rgba(30,30,30,0.8);
+}

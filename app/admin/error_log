@@ -1,0 +1,1 @@
+[12-May-2018 14:26:48 America/Chicago] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'b2p8j8g2_dfinan'@'localhost' to database 'b2p8j8g2_dfinan' in /home2/b2p8j8g2/public_html/twf/demos/finan.comsis.online/app/admin/INSTALAR.php on line 3
