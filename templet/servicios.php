@@ -20,7 +20,44 @@ El puente tiene un mecanismo automanito que se mueve por unos motoreductore inst
 Desde los dichos extremos sale una cuerda, la cual cambia de dirección con la ayuda de poleas.
 En cada torre hay dos poleas. Las poleas situadas en la parte superior de cada torre reciben las cuerdas en sentido horizontal y le da un cambio de 90º, dirigiéndolo a la base.
 Debajo de las torres se encuentra las otras poleas que dan un cambio de 90º, dirigiéndolo hacia el manivela.
-En resumen se utilizan máquinas que permiten el movimiento de la carretera. La carretera va unida a las torres con un palo de balso, el cual hace de eje para el movimiento de esta. '); ?>
+En resumen se utilizan máquinas que permiten el movimiento de la carretera. La carretera va unida a las torres con un palo de balso, el cual hace de eje para el movimiento de esta. 
+<br>
+codigo<br>
+int triger = 9, echo = 8, led=4, grado=0;<br>
+float tiempo=0.0, distancia=0.0;<br>
+
+void setup(){<br>
+  // put your setup code here, to run once:<br>
+  pinMode(led, OUTPUT);<br>
+  pinMode(triger,OUTPUT);<br>
+  pinMode(echo,INPUT);<br>
+  Serial.begin(9600);<br>
+}<br>
+void loop() {<br>
+  // put your main code here, to run repeatedly:<br>
+  digitalWrite(triger,LOW);<br>
+  delayMicroseconds(2);<br>
+  digitalWrite(triger,HIGH);<br>
+  delayMicroseconds(10);<br>
+  for(grado=0;grado=360;grado++)<br>
+  tiempo=pulseIn(echo,HIGH);<br>
+  distancia=(tiempo/2)/29.1;<br>
+  Serial.print(distancia);<br>
+  Serial.println("distancia centimetros");<br>
+  Serial.print(tiempo);<br>
+  Serial.println("tiempo");<br>
+  Serial.print(grado);<br>
+  Serial.println("Grado:");<br>
+  delay(500);<br>
+
+  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)<br>
+  delay(250);                       // wait for a second<br>
+  digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW<br>
+  delay(250);                       // wait for a second<br>
+}
+
+
+'); ?>
 </h4>
        <!-- <div class="dt-sc-tabs-container">
             <div class="clear"></div>

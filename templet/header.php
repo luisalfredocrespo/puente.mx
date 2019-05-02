@@ -137,7 +137,7 @@
                             	
                                 <a class="dt-menu-expand">+</a>
                             </li>
-                            <li class=""><a href="<?php $this->url_inicio(); ?>servicios">Mecanismos</a></li>
+                            <li class=""><a href="<?php $this->url_inicio(); ?>servicios">Mecanismo y codigo</a></li>
 							
 							<?php /* <ul  <li class="menu-item-simple-parent"><a href="<?php echo RUTA_ACTUAL; ?>productos">producto</a></li> </ul> */ ?>
                             
