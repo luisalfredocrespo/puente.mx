@@ -21,7 +21,26 @@ Desde los dichos extremos sale una cuerda, la cual cambia de dirección con la a
 En cada torre hay dos poleas. Las poleas situadas en la parte superior de cada torre reciben las cuerdas en sentido horizontal y le da un cambio de 90º, dirigiéndolo a la base.
 Debajo de las torres se encuentra las otras poleas que dan un cambio de 90º, dirigiéndolo hacia el manivela.
 En resumen se utilizan máquinas que permiten el movimiento de la carretera. La carretera va unida a las torres con un palo de balso, el cual hace de eje para el movimiento de esta. 
+
+tiene un boton de encendido del circuito y un boton de paro de emergencia por si la plataforma tiene un problema el boton de emargencia nos sirve para poder reparar cualquier falla .
 <br>
+
+
+'); ?>
+<br>
+<br>
+<br>
+
+<html>
+<body>
+
+<h4style="font-size:300%;">
+
+<h1>codigo</h1><br>
+int triger = 9, echo = 8, led=4, grado=0;
+float tiempo=0.0, distancia=0.0;
+
+
 codigo<br>
 int triger = 9, echo = 8, led=4, grado=0;<br>
 float tiempo=0.0, distancia=0.0;<br>
@@ -57,7 +76,12 @@ void loop() {<br>
 }
 
 
-'); ?>
+}</h4>
+
+
+</body>
+</html>
+
 </h4>
        <!-- <div class="dt-sc-tabs-container">
             <div class="clear"></div>
