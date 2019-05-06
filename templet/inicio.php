@@ -20,26 +20,25 @@
                     </div>
                 </div>
             </div>
-            <div class=" clear"></div>
-            <div class="opening-time-info">
-            	<div class="container">
-                	<!--<ul class="time-info">
-                    	<li><i class="fa fa-clock-o"></i><span>Hora de </span> Apertura</li>
-                        <li>lunes a  viernes 9:<span>AM A</span> 8:30<span>PM</span></li>
-						<li>sadados 9:<span>AM A</span> 7:00<span>PM</span></li>
-                    </ul>-->
-                   <!-- <div class="alignright">
-                    	<a href="<?php echo RUTA_ACTUAL; ?>" class="appointment-btn btn-eff2"><i class="fa fa-pencil-square-o"></i>Reserva <span>tu cita  </span></a>
-                    </div>-->
-                </div>
-            </div>
+           
+            <div class="caption">
+                            	
+ <p style="color:DodgerBlue;">
+ <br>
+ <br>
+ <br>
+ Descripción del proyecto:
+Este proyecto contera con varias partes para su realización como lo será el reunir los materiales necesarios para la elaboración del mismo, la programación del arduino y el ensamblado de todas las partes que conforman la maqueta para esta pueda funcionar correctamente. 
+En caso de algún fallo se tendrán opciones para que el proyecto continúe adelante sin ningún tipo de retraso.
+También se tomará en cuenta los fallos que pueda llegar a tener la maqueta ya concluida y en funcionamiento en alguna prueba, se la pondrá un paro de emergencia para poder actuar rápido y que el puente no sufra ningún tipo de daño.</p>
+ 
+                                
+                                
+                            </div>
+           
             <!--<div class="container"><!-- Container -->
-            	<!--<h2 class="border-title aligncenter jmy_web_div" data-page="inicio" id="hola1"data-editor="no" >
-                <?php $this->pnt('hola1','Bienvenidos a su Sal&oacuten.'); ?>
-                     
-                </h2>-->
-               <!--<p class="aligncenter jmy_web_div" data-page="inicio" id="hola" data-editor="no" >
-                <?php $this->pnt('hola','El Salón evolution le da la bienvenida este es su Salón de belleza para usted aquí encontrara el cambio de look tanto como para damas y caballeros, queremos que se sienta cómodo y satisfecho gracias por su visita.'); ?></p>-->
+            	
+               
 				<div class="clear"></div>
                 <div class="hr-invisible-medium"></div>
                 <div class="hr-invisible-very-very-small"></div>

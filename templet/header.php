@@ -151,7 +151,7 @@
                             	
                                 <a class="dt-menu-expand">+</a>
                             </li>      
-                            <li class="menu-item-simple-parent"><a href="<?php $this->url_inicio(); ?>contacto">video</a>
+                            <li class="menu-item-simple-parent"><a href="<?php $this->url_inicio(); ?>VIDEOYTABLADECHECKLIST">video y tabla de checklist</a>
                             	
                                 <a class="dt-menu-expand">+</a>
                             </li>                                  
