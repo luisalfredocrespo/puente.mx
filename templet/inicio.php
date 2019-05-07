@@ -22,15 +22,23 @@
             </div>
            
             <div class="caption">
-                            	
- <p style="color:DodgerBlue;">
+        </div>                    	
+ 
  <br>
  <br>
  <br>
- Descripción del proyecto:
-Este proyecto contera con varias partes para su realización como lo será el reunir los materiales necesarios para la elaboración del mismo, la programación del arduino y el ensamblado de todas las partes que conforman la maqueta para esta pueda funcionar correctamente. 
-En caso de algún fallo se tendrán opciones para que el proyecto continúe adelante sin ningún tipo de retraso.
-También se tomará en cuenta los fallos que pueda llegar a tener la maqueta ya concluida y en funcionamiento en alguna prueba, se la pondrá un paro de emergencia para poder actuar rápido y que el puente no sufra ningún tipo de daño.</p>
+ <div class="container">
+     <div class="row">
+         <div class="col-md-10">
+         <p style="color:DodgerBlue;"> Descripción del proyecto:
+            Este proyecto contera con varias partes para su realización como lo será el reunir los materiales necesarios para la elaboración del mismo, la programación del arduino y el ensamblado de todas las partes que conforman la maqueta para esta pueda funcionar correctamente. 
+            En caso de algún fallo se tendrán opciones para que el proyecto continúe adelante sin ningún tipo de retraso.
+            También se tomará en cuenta los fallos que pueda llegar a tener la maqueta ya concluida y en funcionamiento en alguna prueba, se la pondrá un paro de emergencia para poder actuar rápido y que el puente no sufra ningún tipo de daño.</p>
+
+         </div>
+     </div>
+ </div>
+ 
  
                                 
                                 
@@ -326,85 +334,86 @@ También se tomará en cuenta los fallos que pueda llegar a tener la maqueta ya 
             </div>-->
             <div class="clear"></div>
             <div class="hr-invisible"></div>
-            <div class="container">
-            	<h2 class="border-title aligncenter jmy_web_div" data-page="inicio" id="hola14" data-editor="no">
+                <h2 class="border-title aligncenter jmy_web_div" data-page="inicio" id="hola14" data-editor="no">
                                     <?php $this->pnt('hola14',''); ?></h2>
                 <p class="aligncenter jmy_web_div" data-page="inicio" id="hola15" data-editor="no">
                 <?php $this->pnt('hola15',''); ?></p>
                 <div class="hr-invisible"></div>
-                <div class="column dt-sc-one-fourth first">
-                    <div class="dt-sc-team type1 animate" data-delay="100" data-animation="fadeIn animated">
+            <div class="container" id="fotos">
+                <div class="row" id="hijo">
+                    <div class="col-md-4">
+                        <div class="column dt-sc-one-fourth first">
+                            <div class="dt-sc-team type1 animate" data-delay="100" data-animation="fadeIn animated">
+                                        
+                                        <h4 class="jmy_web_div" data-page="inicio" id="hola16" data-editor="no" "menu-item-simple-parent">
+                                <?php $this->pnt('hola16',''); ?> <a href="<?php $this->url_inicio(); ?>crespo">Luis Alfredo <br>crespo plata</a></h4>
+                                
+                                <li>
+                                        <img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/luialfredo.fw.png" alt="" title="">
+                                            <br> 
+                                            <br> 
+                                            <br> 
+                                            <h5></h5>
+                                        </li>
+                                        <h5 class="jmy_web_div" data-page="inicio" id="hola17" data-editor="no">
+                                <?php $this->pnt('hola17',''); ?></h5>
+                                        <h5 class="jmy_web_div" data-page="inicio" id="hola18" data-editor="no">
+                                <?php $this->pnt('hola18',''); ?></h5>
+                                        <h5 class="jmy_web_div" data-page="inicio" id="hola19" data-editor="no">
+                                <?php $this->pnt('hola19',''); ?></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
                         
-                        <h4 class="jmy_web_div" data-page="inicio" id="hola16" data-editor="no" "menu-item-simple-parent">
-                <?php $this->pnt('hola16',''); ?> <a href="<?php $this->url_inicio(); ?>crespo">Luis Alfredo <br>crespo plata</a></h4>
-                
-                <li>
-                           <img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/luialfredo.fw.png" alt="" title="">
-							<br> 
-							<br> 
-							<br> 
-                            <h5></h5>
-                        </li>
-                        <h5 class="jmy_web_div" data-page="inicio" id="hola17" data-editor="no">
-                <?php $this->pnt('hola17',''); ?></h5>
-						<h5 class="jmy_web_div" data-page="inicio" id="hola18" data-editor="no">
-                <?php $this->pnt('hola18',''); ?></h5>
-						 <h5 class="jmy_web_div" data-page="inicio" id="hola19" data-editor="no">
-                <?php $this->pnt('hola19',''); ?></h5>
+                        <div class="column dt-sc-one-fourth">
+                            <div class="dt-sc-team type1 animate" data-delay="200" data-animation="fadeIn animated">
+                                
+                                        <h4 class="jmy_web_div" data-page="inicio" id="hola20" data-editor="no">
+                                <?php $this->pnt('hola20',''); ?> <a href="<?php $this->url_inicio(); ?>gutierrez">Jose Luis<br>Gutierrez Hernadez</a></h4>
+                                <li>
+                                        <img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/joseluis.fw.png" alt="" title="">
+                                            <br> 
+                                            <br> 
+                                            <br> 
+                                            <h5></h5>
+                                        </li>
+                                        <h5 class="jmy_web_div" data-page="inicio" id="hola21" data-editor="no">
+                                <?php $this->pnt('hola21',''); ?></h5>
+                                        <h5 class="jmy_web_div" data-page="inicio" id="hola22" data-editor="no">
+                                <?php $this->pnt('hola22',''); ?></h5>
+                                        <h5 class="jmy_web_div" data-page="inicio" id="hola23" data-editor="no">
+                                <?php $this->pnt('hola23',''); ?></h5>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-md-4">
+                    <div class="column dt-sc-one-fourth">
+                            <div class="dt-sc-team type1 animate" data-delay="300" data-animation="fadeIn animated">
+                                        
+                                        <h4 class="jmy_web_div" data-page="inicio" id="hola24" data-editor="no">
+                                <?php $this->pnt('hola24',''); ?><a href="<?php $this->url_inicio(); ?>pokemon">Ivan Alan  <br> Rodrigez Marin</a></h4>
+                                <li>
+                                        <img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/pokemon.fw.png" alt="" title="">
+                                            <br> 
+                                            <br> 
+                                            <br> 
+                                            <h5></h5>
+                                        </li>
+                                        <h5 class="jmy_web_div" data-page="inicio" id="hola25" data-editor="no">
+                                <?php $this->pnt('hola25',''); ?></h5>
+                                        <h5 class="jmy_web_div" data-page="inicio" id="hola26" data-editor="no">
+                                <?php $this->pnt('hola26',''); ?></h5>
+                                        <h5 class="jmy_web_div" data-page="inicio" id="hola27" data-editor="no">
+                                <?php $this->pnt('hola27',''); ?></h5>
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="column dt-sc-one-fourth">
-                    <div class="dt-sc-team type1 animate" data-delay="200" data-animation="fadeIn animated">
                         
-                        <h4 class="jmy_web_div" data-page="inicio" id="hola20" data-editor="no">
-                <?php $this->pnt('hola20',''); ?> <a href="<?php $this->url_inicio(); ?>gutierrez">Jose Luis<br>Gutierrez Hernadez</a></h4>
-                <li>
-                           <img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/joseluis.fw.png" alt="" title="">
-							<br> 
-							<br> 
-							<br> 
-                            <h5></h5>
-                        </li>
-                        <h5 class="jmy_web_div" data-page="inicio" id="hola21" data-editor="no">
-                <?php $this->pnt('hola21',''); ?></h5>
-						 <h5 class="jmy_web_div" data-page="inicio" id="hola22" data-editor="no">
-                <?php $this->pnt('hola22',''); ?></h5>
-						  <h5 class="jmy_web_div" data-page="inicio" id="hola23" data-editor="no">
-                <?php $this->pnt('hola23',''); ?></h5>
-                    </div>
-                </div>
-                <div class="column dt-sc-one-fourth">
-                    <div class="dt-sc-team type1 animate" data-delay="300" data-animation="fadeIn animated">
-                        
-                        <h4 class="jmy_web_div" data-page="inicio" id="hola24" data-editor="no">
-                <?php $this->pnt('hola24',''); ?><a href="<?php $this->url_inicio(); ?>pokemon">Ivan Alan  <br> Rodrigez Marin</a></h4>
-                <li>
-                           <img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/pokemon.fw.png" alt="" title="">
-							<br> 
-							<br> 
-							<br> 
-                            <h5></h5>
-                        </li>
-                        <h5 class="jmy_web_div" data-page="inicio" id="hola25" data-editor="no">
-                <?php $this->pnt('hola25',''); ?></h5>
-						 <h5 class="jmy_web_div" data-page="inicio" id="hola26" data-editor="no">
-                <?php $this->pnt('hola26',''); ?></h5>
-						  <h5 class="jmy_web_div" data-page="inicio" id="hola27" data-editor="no">
-                <?php $this->pnt('hola27',''); ?></h5>
-						
-                    </div>
-                </div>
-                <div class="column dt-sc-one-fourth">
-                   <!-- <div class="dt-sc-team type1 animate" data-delay="400" data-animation="fadeIn animated">
-                        
-                        <h4 class="jmy_web_div" data-page="inicio" id="hola28"data-editor="no">
-                <?php $this->pnt('hola28','Beatris'); ?></h4>
-                        <h5 class="jmy_web_div" data-page="inicio" id="hola29"data-editor="no">
-                <?php $this->pnt('hola29','estilista en general'); ?></h5>
-						 <h5 class="jmy_web_div" data-page="inicio" id="hola30"data-editor="no">
-                <?php $this->pnt('hola30','manicurista'); ?></h5>
-                    </div>-->
-                </div>
             </div>
             <div class="clear"></div>
             <div class="hr-invisible-medium"></div>

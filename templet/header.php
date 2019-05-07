@@ -36,7 +36,7 @@
     <!-- **Additional - stylesheets** -->
     <link rel="stylesheet" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>css/responsive.css" type="text/css" media="all"/>
     <link href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>css/animations.css" rel="stylesheet" media="all" />
-    <link id="skin-css" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>skins/red/style.css" rel="stylesheet" media="all" />
+    <link id="skin-css" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>skins/blue/style.css" rel="stylesheet" media="all" />
     <link rel="stylesheet" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>css/meanmenu.css" type="text/css" media="all"/>
     <link rel="stylesheet" type="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>text/css" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>css/pace-theme-loading-bar.css" />
         

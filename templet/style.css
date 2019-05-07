@@ -40,7 +40,7 @@
 
 /*----*****---- << 1. General >> ----*****----*/
 	
-	body { font-weight: normal; font-size: 14px; color: #53c45c; margin:0; background: #fff; line-height: normal; }
+	body { font-weight: normal; font-size: 14px; color: #478bca; margin:0; background: #fff; line-height: normal; }
 	*{ -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
 	
 	/*----*****---- << 01. Fonts >> ----*****----*/
@@ -59,6 +59,16 @@
 	h4{ font-size:20px; }
 	h5{ font-size:16px; }
 	h6{ font-size:14px; }
+	#fotos{
+		justify-content: center;
+		margin:0 auto;
+margin-left:240px;
+	}
+	.hijo {
+		padding: 10px;
+		margin: 10px;
+		background-color: yellow;
+	}
 	#videos{
 	
 		width: 520px;
