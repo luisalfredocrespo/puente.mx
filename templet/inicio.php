@@ -4,7 +4,7 @@
                 	<div class="parallax-spacing">
                     	<div class="container">
                         	<div class="caption">
-                            	<h2 class="jmy_web_div" data-page="inicio" id="slider_1" data-editor="no"><?php $this->pnt('slider_1','Proyecto  <br>puente  <span class="color-default">levadizo <br> veicular para el paso de varcos </span>');?></h2>
+                            	<h2 class="jmy_web_div" data-page="inicio" id="slider_1" data-editor="no"><?php $this->pnt('slider_1','Proyecto  <br>puente  <span class="color-default">levadizo <br> veicular para el paso de barcos </span>');?></h2>
                                 <p></p>
                                 
                             </div>

@@ -133,21 +133,21 @@
                                 </ul> */ ?>
                                 <a class="dt-menu-expand">+</a>
                             </li>
-                            <li class="menu-item-simple-parent"><a href="<?php $this->url_inicio(); ?>nosotros">curriculos</a>
+                            <li class="menu-item-simple-parent"><a href="<?php $this->url_inicio(); ?>curriculums">curriculums</a>
                             	
                                 <a class="dt-menu-expand">+</a>
                             </li>
-                            <li class=""><a href="<?php $this->url_inicio(); ?>servicios">Mecanismo y codigo</a></li>
+                            <li class=""><a href="<?php $this->url_inicio(); ?>MECANISMOYCODIGO">Mecanismo y codigo</a></li>
 							
 							<?php /* <ul  <li class="menu-item-simple-parent"><a href="<?php echo RUTA_ACTUAL; ?>productos">producto</a></li> </ul> */ ?>
                             
                             
-                            <li class="menu-item-simple-parent"><a href="<?php $this->url_inicio(); ?>galeria">descripcion del proyecto   </a>
+                            <li class="menu-item-simple-parent"><a href="<?php $this->url_inicio(); ?>DESCRIPCIONDELPROYECTO">descripcion del proyecto   </a>
                             	
                                 <a class="dt-menu-expand">+</a>
                             </li>
                            
-							<li class="menu-item-simple-parent"><a href="<?php $this->url_inicio(); ?>productos">Material y galeria </a>
+							<li class="menu-item-simple-parent"><a href="<?php $this->url_inicio(); ?>MATERIALYGALERIA">Material y galeria </a>
                             	
                                 <a class="dt-menu-expand">+</a>
                             </li>      
