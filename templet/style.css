@@ -59,7 +59,11 @@
 	h4{ font-size:20px; }
 	h5{ font-size:16px; }
 	h6{ font-size:14px; }
+	#videos{
 	
+		width: 520px;
+		height: 340px;
+	}
 	h2.border-title.aligncenter { text-align:center; margin-bottom:50px; position: relative; color: #282828; font-weight: 100; }
 	h2.border-title.aligncenter:before { background: url(images/heading-bottom.png) no-repeat; content: ""; height: 50px; left: 0; margin: 0 auto; position: absolute; right: 0; 
     bottom: -40px; width: 206px; z-index: 9; }

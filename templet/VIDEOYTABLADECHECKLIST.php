@@ -80,13 +80,25 @@
 		<title>video</title>	
 	<head>		
     		<body bgcolor="#00ff00">
+
+        <div class="container" id="videos">
+          <div class="row">
+            <div class="col-md-6"  >
+             <video   src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/producto2/puente1.mp4" width="220" height="140" controls></video>	
+            </div>
+          </div>
+        </div>
  			
-        <video   src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/producto2/puente1.mp4" width="220" height="140" controls>
+        <div class="container" id="videos">
+          <div class="row">
+            <div class="col-md-8">
+              <video   src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/producto2/puente.mp4" width="320" height="240" controls>
 
-</video>	
-<video   src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/producto2/puente.mp4" width="320" height="240" controls>
+              </video>
+            </div>
+          </div>
+        </div>
 
-</video>
 
 
 
